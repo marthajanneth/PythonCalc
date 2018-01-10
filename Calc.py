@@ -1,6 +1,6 @@
 def Menu()
     Funcion que Muestra el Menu
-    print 
+    print("
 Calculadora
 
 Menu
@@ -8,7 +8,8 @@ Menu
 2) Resta
 3) Multiplicacion
 4) Division
-5) Salir
+5) Salir")
+
 def Calculadora()
     Funcion Para Calcular Operaciones Aritmeticas
     Menu()
