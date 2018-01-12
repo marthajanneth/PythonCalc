@@ -1,14 +1,13 @@
 def Menu()
     Funcion que Muestra el Menu
-    print("
-Calculadora
+    print("Calculadora")
 
-Menu
-1) Suma
-2) Resta
-3) Multiplicacion
-4) Division
-5) Salir")
+    print("Menu")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicacion")
+    print("4. Division")
+    print("5. Salir")
 
 def Calculadora()
     Funcion Para Calcular Operaciones Aritmeticas
