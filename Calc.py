@@ -17,19 +17,19 @@ def Calculadora()
         x = int(input(Ingrese Numeron))
         y = int(input(Ingrese Otro Numeron))
         if (opc==1)
-            print La Suma es, x+y
+            print("La Suma es, x+y")
             opc = int(input(Selecione Opcionn))
         elif(opc==2)
-            print La Resta es,x-y
+            print("La Resta es,x-y")
             opc = int(input(Selecione Opcionn))
         elif(opc==3)
-            print La Multiplicacion es,xy
+            print("La Multiplicacion es,xy")
             opc = int(input(Selecione Opcionn))
         elif(opc==4)
             try
-              print La Division es, xy
+              print("La Division es, xy")
               opc = int(input(Selecione Opcionn))
             except ZeroDivisionError
-              print No se Permite la Division Entre 0
+              print("No se Permite la Division Entre 0")
               opc = int(input(Selecione Opcionn))
 Calculadora()
