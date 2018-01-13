@@ -1,5 +1,5 @@
 def Menu()
-    #Función que Muestra el Menu
+    Funcion que Muestra el Menu
     print("Calculadora")
 
     print("Menu")
@@ -10,7 +10,7 @@ def Menu()
     print("5. Salir")
 
 def Calculadora()
-    #Funcion Para Calcular Operaciones Aritmeticas
+    Funcion Para Calcular Operaciones Aritmeticas
     Menu()
     opc = int(input(Selecione Opcionn))
     while (opc 0 and opc 5)
